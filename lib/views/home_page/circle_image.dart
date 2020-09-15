@@ -1,9 +1,8 @@
-
 import 'package:flutter/material.dart';
 // ignore: must_be_immutable
 class CircleImage extends StatelessWidget {
   String name;
-  var image;
+  String  image;
   CircleImage({
     this.name,
     this.image,

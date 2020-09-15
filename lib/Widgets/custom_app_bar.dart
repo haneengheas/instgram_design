@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-Widget customAppBar() {
+import 'package:instgram_task/views/chats/view.dart';
+Widget customAppBar(context) {
   return AppBar(
     leading: IconButton(
         icon: Image.network(
@@ -19,7 +20,7 @@ Widget customAppBar() {
             height: 90,
           ),
           onPressed: () {
-        //    Navigator.of(context).push(MaterialPageRoute(builder: (context)=> Chats()));
+         Navigator.of(context).push(MaterialPageRoute(builder: (context)=> Chats()));
           })
     ],
   );

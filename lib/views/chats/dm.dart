@@ -4,8 +4,10 @@ class Dm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      height: 1000,
+      width: 300,
       child: ListView.builder(
-            scrollDirection: Axis.horizontal,
+        scrollDirection: Axis.vertical,
             itemCount: fakedata.length,
             itemBuilder: (_,index)
             {
@@ -39,6 +41,36 @@ List <List <String>>fakedata=[
     'Replied to your story',
     'assets/waffa.png',
     'assets/camera.png',
+  ],
+  [
+    'aya fwzy',
+    'sent you a video',
+    'assets/aya3.png',
+    'assets/play.png',
+  ],
+  [
+    'aya fwzy',
+    'sent you a video',
+    'assets/aya3.png',
+    'assets/play.png',
+  ],
+  [
+    'aya fwzy',
+    'sent you a video',
+    'assets/aya3.png',
+    'assets/play.png',
+  ],
+  [
+    'aya fwzy',
+    'sent you a video',
+    'assets/aya3.png',
+    'assets/play.png',
+  ],
+  [
+    'aya fwzy',
+    'sent you a video',
+    'assets/aya3.png',
+    'assets/play.png',
   ],
   [
     'aya fwzy',

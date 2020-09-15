@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:instgram_task/views/home_page/view.dart';
-
-Widget customAppBar(){
+Widget customAppBar(context){
   return AppBar(
-    leading: IconButton(icon:Image.asset('assets/back.png'), onPressed:(){
-      BuildContext context;
-      Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
+    leading: IconButton(icon:Image.asset('assets/back.png',height: 20,), onPressed:(){
+      Navigator.pop(context);
     }),
     title: Text('Direct',style: TextStyle(fontWeight: FontWeight.bold),),
     actions: <Widget>[
-      IconButton(icon:Image.asset('assets/add.png'), onPressed: (){}),
+      IconButton(icon: Image.asset('assets/add.png',height: 20,), onPressed:(){})
     ],
 
   );
