@@ -11,9 +11,10 @@ class Stories extends StatelessWidget {
         itemCount: fakedata.length,
         itemBuilder: (_,index)
           {
-            return CircleImage(
+            return index == 0 ? Icon(Icons.hourglass_empty) : CircleImage(
             image: fakedata [index][0],
             name:fakedata[index][1],
+            image2:fakedata[index][2] ,
             );
           },
       ),
@@ -24,34 +25,49 @@ List <List <String>>fakedata=[
   [
     'assets/hh.jpg',
     'your story',
+    '',
   ],
   [
     'assets/sara.jpg',
     'sara_eissa',
+    'assets/wall.png',
+
+
   ],
   [
     'assets/ezabla.jpg',
     'ezabla',
+    'assets/wall.png',
   ],
   [
     'assets/aya3.png',
     'aya fawzy',
+    'assets/wall.png',
+
   ],
   [
     'assets/alfarida.png',
     'alfarida',
+    'assets/wall.png',
+
   ],
   [
     'assets/mai.png',
     'mai_ibrahim',
+    'assets/wall.png',
+
   ],
   [
     'assets/waffa.png',
     'wafeezzaldin',
+    '',
+
   ],
   [
     'assets/gg.png',
     'mona',
+    '',
+
   ],
 
 ];

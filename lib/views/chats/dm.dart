@@ -3,10 +3,7 @@ import 'package:instgram_task/views/chats/listtile.dart';
 class Dm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 1000,
-      width: 300,
-      child: ListView.builder(
+    return  ListView.builder(
         scrollDirection: Axis.vertical,
             itemCount: fakedata.length,
             itemBuilder: (_,index)
@@ -19,7 +16,7 @@ class Dm extends StatelessWidget {
                image3: fakedata[index][4],
               );
             },
-          ),
+
 
     );
   }
@@ -36,43 +33,43 @@ List <List <String>>fakedata=[
     'mai_ibrahim',
     'sent you a photo',
     'assets/mai.png',
-    'assets/play.png',
-    'assets/wall.png',
+    'assets/camera.png',
+    '',
   ],
   [
     'wafaa_ezaldin',
     'Replied to your story',
     'assets/waffa.png',
+    'assets/play.png',
+    'assets/wall.png',
+  ],
+  [
+    'mena_alsony',
+    '',
+    'assets/mena.png',
     'assets/camera.png',
-    'assets/wall.png',
+    '',
   ],
   [
-    'aya fwzy',
+    'nadia.elkholy',
     'sent you a video',
-    'assets/aya3.png',
-    'assets/play.png',
-    'assets/wall.png',
+    'assets/nadia.png',
+    'assets/camera.png',
+    '',
   ],
   [
-    'aya fwzy',
-    'sent you a video',
-    'assets/aya3.png',
-    'assets/play.png',
-    'assets/wall.png',
+    'alfarida',
+    '',
+    'assets/alfarida.png',
+    'assets/camera.png',
+    '',
   ],
   [
-    'aya fwzy',
-    'sent you a video',
-    'assets/aya3.png',
-    'assets/play.png',
-    'assets/wall.png',
-  ],
-  [
-    'aya fwzy',
-    'sent you a video',
-    'assets/aya3.png',
-    'assets/play.png',
-    'assets/wall.png',
+    'ezabla',
+    '',
+    'assets/mena2.png',
+    'assets/camera.png',
+    '',
   ],
   [
     'aya fwzy',

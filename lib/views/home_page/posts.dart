@@ -15,12 +15,13 @@ class Posts extends StatelessWidget {
         Likes(image: 'assets/nadia.png',text: 'Liked by nadia.elkholy and 45.523 others',),
         PostText(text: ' ayafwzy',text2:'    see more ... حقيقة الانسان ليس بما يظهره لك ..بل ما  '),
         Likes(image: 'assets/haneen.png',text: 'Add a comment...',),
-        Address(image:'assets/mena2.png',title: 'menna_el_sonny',subtitle:'secretgarden',),
+        Address(image:'assets/mena2.png',title: 'menna_el_sonny',subtitle:'Dahab',),
         ImagePosts(image: 'assets/mena.png',),
         MyIcon(),
         Likes(image: 'assets/nadia.png',text: 'Liked by nadia.elkholy and 45.523 others',),
         PostText(text: ' mena_el_sonny',text2:'     احلي احساس في الدنيا هو الرضا '),
         Likes(image: 'assets/haneen.png',text: 'Add a comment...',),
+
       ],
     );
   }

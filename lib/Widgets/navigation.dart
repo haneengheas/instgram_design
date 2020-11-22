@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:instgram_task/views/camera/view.dart';
 import 'package:instgram_task/views/home_page/view.dart';
+import 'package:instgram_task/views/profile/view.dart';
 import 'package:instgram_task/views/search/view.dart';
 class Navigation extends StatefulWidget {
   @override
@@ -11,9 +13,9 @@ class _NavigationState extends State<Navigation> {
 final pageOptions = [
   HomePage(),
   Search(),
+  Camera(),
   Text('item 2'),
-  Text('item 2'),
-  Text('item 5')
+  Profile(),
 ];
   @override
   Widget build(BuildContext context) {

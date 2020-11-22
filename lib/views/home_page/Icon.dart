@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_icons/flutter_icons.dart';
 class MyIcon extends StatefulWidget {
   @override
   _MyIconState createState() => _MyIconState();
@@ -11,7 +12,9 @@ class _MyIconState extends State<MyIcon> {
     return Row(
       children: [
         IconButton(
-            icon: Image.asset('assets/heart.png',color: pageindex==0?Colors.red:Colors.black87,
+            icon: ( pageindex==0
+            ?Icon(AntDesign.heart,size: 35,color: Colors.red,)
+            :Icon(AntDesign.hearto,size: 35,)
             ),
             onPressed: () {
               setState(() {
@@ -19,7 +22,7 @@ class _MyIconState extends State<MyIcon> {
               });
             }),
         IconButton(
-            icon: Image.asset('assets/speech-bubble.png',color: pageindex==1?Colors.red:Colors.black87,
+            icon: Image.asset('assets/speech-bubble.png',height: 30,color: pageindex==1?Colors.black87:Colors.black87,
             ),
             onPressed: () {
               setState(() {

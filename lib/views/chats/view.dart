@@ -6,14 +6,11 @@ class Chats extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
      appBar: customAppBar(context),
-     body: ListView(
-       children: [
-        // Search(),
-         Dm(),
+     body: Dm(),
 
-        ],
 
-      ),
+
+
 
 
     );

@@ -19,11 +19,12 @@ class MyListTile extends StatelessWidget {
       title: Text(title),
       subtitle: Text(subtitle),
       leading: CircleAvatar(
-        radius: 33,
+        radius: 28,
+        backgroundColor: Colors.grey.shade300,
         backgroundImage: AssetImage(image3),
         child: CircleAvatar(
           backgroundImage:AssetImage(image),
-          radius: 30,
+          radius: 25,
         ),
 
       ),
